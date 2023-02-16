@@ -26,12 +26,13 @@ function Basics() {
           <details>
             <summary><b>Simple Programs</b></summary>
             <div className={Utility.summaryDiv}>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/hello.cpp");}}>Hello World</li>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/one-to-hundred.cpp");}}>One to Hundred</li>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/a-to-z.cpp");}}>Print A to Z</li>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/odd-even.cpp");}}>Print Odd Even</li>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/print-odd-till-n.cpp");}}>Print Odd till N</li>
-              <li onClick={() => {setcodeUrl("/basics/1-simple/swap-with-temp.cpp");}}>Swap With Temp varriable</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/hello.cpp");}}>Hello World</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/one-to-hundred.cpp");}}>One to Hundred</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/a-to-z.cpp");}}>Print A to Z</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/odd-even.cpp");}}>Print Odd Even</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/print-odd-till-n.cpp");}}>Print Odd till N</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/swap-with-temp.cpp");}}>Swap With Temp</li>
+              <li onClick={() => {setcodeUrl("/Basics/1-Simple/swap-without-temp.cpp");}}>Swap Without Temp</li>
             </div>
           </details>
           </ol>

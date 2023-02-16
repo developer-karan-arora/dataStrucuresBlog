@@ -19,9 +19,9 @@ function Daily() {
           <embed src={codeUrl} type="text/md" />
         </div>
         <div className={Utility.displayList}>
-          <p onClick={()=>{setcodeUrl("/daily/day-1.md")}}>DAY-1</p>
-          <p onClick={()=>{setcodeUrl("/daily/day-2.md")}}>DAY-2</p>
-          <p onClick={()=>{setcodeUrl("/daily/day-3.md")}}>DAY-3</p>
+          <p onClick={()=>{setcodeUrl("/Daily/day-1.md")}}>DAY-1</p>
+          <p onClick={()=>{setcodeUrl("/Daily/day-2.md")}}>DAY-2</p>
+          <p onClick={()=>{setcodeUrl("/Daily/day-3.md")}}>DAY-3</p>
         </div>
       </div>
     </div>
