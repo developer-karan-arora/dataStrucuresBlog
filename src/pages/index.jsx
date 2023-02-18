@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "@/styles/Home.module.css";
+// import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -27,8 +27,8 @@ export default function Home() {
           <li>StandardTemplateLibrary</li>
           <li>HarryDataStructure </li>
           <li>AbdulBariAlgorithms </li>
-          <li>DSAWarmUp(Leetcode)-[Striver+Babbar] </li>
-          <li>DSAPractice(GeeksForGeeks)-[LoveBabbarSheetSol] </li>
+          {/* <li>DSAWarmUp(Leetcode)-[Striver+Babbar] </li> */}
+          <li><Link href='/BabbarSheet'>DSAPractice(GeeksForGeeks)-[LoveBabbarSheet] </Link></li>
           <li>DSACompetition(Leetcode+codecheff)</li>
         </ol>
       </div>
